@@ -1,28 +1,22 @@
-# Heaps
-
-
 # Flashcards for DSA Revision 
 
 ## Heaps
-For a 0-indexed array
+
+For a 0-indexed array : 
 
 - **Arr[(i - 1) / 2]**	Returns the parent node
 - **Arr[(2 * i) + 1]**	Returns the left child node
 - **Arr[(2 * i) + 2]**	Returns the right child node
 - If n is the length of the array, **(n-1)//2** will be the last non-leaf node
+- In python, we use heapq module to implement minHeap and maxHeap.
+
+**Time and Space Complexity**:
+- Building Heap - O(N) Time and O(1) Space
+- Insertion - O(log(N)) Time
+- Deletion - O(log(N)) Time
 
 
-- In-Built Methods to implement MinHeap and MaxHeap :
-
-**Code :**
-
-import heapq
-
-l1 = [5, 7, 9, ,1 3]
-
-heapq.heapify(l1)
-
-l1 = [1, 3, 9, 7 , 5] --> A min heap
+## Key Points : 
 
 - The Python priority queue is built on the heapq module, which is basically a binary heap.
 - When we use heapq to to implement priority queue, by default, it behaves as a min heap.
