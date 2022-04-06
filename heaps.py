@@ -260,10 +260,10 @@ def nthSuperUglyNumber(n, primes):
         answer = heapq.heappop(heap)
 
         for prime in primes:
-            if prime in d:
+            if prime*answer in d:
                 pass
             else:
-                d[prime] = prime
+                d[prime*answer] = prime
                 heapq.heappush(heap, prime * answer)
                 print(count)
         count += 1
