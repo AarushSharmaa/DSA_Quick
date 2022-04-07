@@ -23,4 +23,13 @@ For a 0-indexed array :
 - If we have a declared array named as heap, we can use below methods : 
 - heapify(heap), heappush(heap, x), heappop(heap), heappushpop(heap, 8), nlargest(k, heap), nsmallest(k, heap)
 
+
+
 # Searching 
+
+## Key Points : 
+- Binary Search Algorithm reduces search space by a larger unit as compared to Linear Scan.
+- Works in problems like First and Last Occurence, Searching in Sorted Rotated Array, Square Root, Peak Element and so on.
+
+
+# Sorting
