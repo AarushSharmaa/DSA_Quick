@@ -33,3 +33,11 @@ For a 0-indexed array :
 
 
 # Sorting
+
+
+## Key Points : 
+
+* Sorting algorithms are mainly of two types:
+
+* Comparison based sorting - In this type of algorithm, we need to compare the array elements with each other in order to sort them. They are generally O(N2) or O(NlogN) algorithms. Eg. Insertion sort, Bubble sort etc.  
+* Non-comparison based sorting - This type of sorting algorithm does not involve comparison between elements.
