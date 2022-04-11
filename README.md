@@ -41,3 +41,14 @@ For a 0-indexed array :
 
 * Comparison based sorting - In this type of algorithm, we need to compare the array elements with each other in order to sort them. They are generally O(N2) or O(NlogN) algorithms. Eg. Insertion sort, Bubble sort etc.  
 * Non-comparison based sorting - This type of sorting algorithm does not involve comparison between elements.
+
+
+# Binary Tree : 
+
+## Key Points : 
+- For a tree with n nodes, there will be n-1 edges.
+- Categories of Tree : Rooted vs Unrooted, Skewed, Binary
+- For a Perfect Binary Tree with N nodes, maximum number of levels : O(log(N))
+- If total number of levels is i, total number of nodes = 2^(i+1) - 1 [levels are 0 ordered] -> For a Perfect Binary Tree
+- 
+
