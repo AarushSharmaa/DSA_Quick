@@ -50,5 +50,6 @@ For a 0-indexed array :
 - Categories of Tree : Rooted vs Unrooted, Skewed, Binary
 - For a Perfect Binary Tree with N nodes, maximum number of levels : O(log(N))
 - If total number of levels is i, total number of nodes = 2^(i+1) - 1 [levels are 0 ordered] -> For a Perfect Binary Tree
-- 
+- For mirror image of a Binary Tree, just swap left and right nodes at each step.
+- Symmetric Check : Check if LST and RST are mirror images of each other. If they are : **Symmetric**
 
