@@ -55,5 +55,5 @@ For a 0-indexed array :
 
 # Recursion : 
 
-- It is Interaction between Functions.
-- It is an algorithm where a function calls itself again and again.
+- **Pass by Value** : When you pass a copy of the variable to a function and original value remains unchanged.
+- **Pass by Reference** : When you pass the memory address of the variable and not its copy. 
