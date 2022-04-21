@@ -53,3 +53,7 @@ For a 0-indexed array :
 - For mirror image of a Binary Tree, just swap left and right nodes at each step.
 - Symmetric Check : Check if LST and RST are mirror images of each other. If they are : **Symmetric**
 
+# Recursion : 
+
+- It is Interaction between Functions.
+- It is an algorithm where a function calls itself again and again.
