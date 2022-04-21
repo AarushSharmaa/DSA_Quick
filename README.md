@@ -1,6 +1,6 @@
-# Flashcards for DSA Revision 
+## Flashcards for DSA Revision 
 
-## Heaps
+# Heaps
 
 For a 0-indexed array : 
 
