@@ -53,6 +53,8 @@ For a 0-indexed array :
 - For mirror image of a Binary Tree, just swap left and right nodes at each step.
 - Symmetric Check : Check if LST and RST are mirror images of each other. If they are : **Symmetric**
 
+# Binary Search Tree : 
+
 # Recursion : 
 
 - **Pass by Value** : When you pass a copy of the variable to a function and original value remains unchanged.
